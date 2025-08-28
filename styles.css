@@ -1,1 +1,56 @@
 /* your code here */
+
+.content{
+	background-color: black;
+	color: white;
+}
+.link-boxes{
+	display: flex;
+}
+.section{
+	display: flex;
+	flex-direction:column;
+	margin:auto;
+	padding: 10px;
+}
+.bottom-details{
+	background-color: lightgray;
+	display: flex;
+}
+.btm-p1{
+	margin-left: 15px;
+}
+.btm-p2{
+	position: absolute;
+     right: 25px;
+}
+.logo_name{
+	font-size:30px;
+	margin-left: 20px;
+}
+.media-icons {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  display: flex;          /* arrange children horizontally */
+  gap: 10px;              /* spacing between icons */
+}
+
+.media-icons a {
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  color: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.media-icons a:hover {
+  background: #2ecc71;
+  color: #fff;
+}
